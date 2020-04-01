@@ -1,0 +1,11 @@
+.itemBox {
+    transition: .5s;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.itemBox:hover {
+   
+    box-shadow: 0 5px 10px gray;
+    border-radius: 5px;
+}

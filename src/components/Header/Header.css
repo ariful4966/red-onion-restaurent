@@ -1,0 +1,21 @@
+.logoSize {
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.logoSize img {
+    height: 100%;
+}
+.btnOnion{
+    background-color: rgb(249, 25, 68);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 5px;
+    outline: none;
+    box-sizing: border-box;
+}

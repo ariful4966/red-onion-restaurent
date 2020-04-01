@@ -1,0 +1,55 @@
+.menu {
+    margin: 50px 0;
+    padding: 0;
+}
+.foodMenu {
+    margin: 10px 0;
+}
+
+.foodMenu a.active {
+    color: #f91944;
+    position: relative;
+}
+
+.foodMenu a.active::after {
+    position: absolute;
+    width: 90%;
+    height: 4px;
+    background: #f91944;
+    left: 50%;
+    content: '';
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.foodMenu a {
+    font-size: 20px;
+    font-weight: 700;
+}
+.footCheckBtn {
+    margin: 20px 0;
+}
+
+
+.footCheckBtn button {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #c3bdbd;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #c3bdbd;
+    transition: .5s;
+}
+
+.footCheckBtn button:hover {
+    background: none;
+    color: #c3bdbd;
+}
+.footCheckBtn a {
+    text-decoration: none;
+    outline: none;
+}

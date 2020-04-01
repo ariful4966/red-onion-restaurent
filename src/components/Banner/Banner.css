@@ -1,0 +1,6 @@
+.banner_area {
+    background: url('../../images/bannerbackground.png') no-repeat center;
+    background-size: cover;
+    height: 500px;
+}
+.bannerHight {height: 500px;}
